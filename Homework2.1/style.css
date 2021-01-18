@@ -1,0 +1,27 @@
+figure {
+    color: green;
+}
+[href^='http'] {
+    color: red;
+}
+.list>li:last-child {
+    background-color: green;
+}
+ul~p {
+    font-size: 26px;
+}
+.text-box h3:first-child {
+    color: pink;
+}
+.text-box #greycol {
+        color: grey;
+    }
+.text-box div>p {
+        color: red;
+    }
+.text-box>p:nth-last-child(2) {
+    color: green;
+}
+.text-box .yellow {
+    color: yellow;
+}
